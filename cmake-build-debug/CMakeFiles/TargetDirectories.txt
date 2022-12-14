@@ -1,0 +1,3 @@
+/Users/hargy/CLionProjects/Asteroids-Game/cmake-build-debug/CMakeFiles/Asteroids_Game.dir
+/Users/hargy/CLionProjects/Asteroids-Game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hargy/CLionProjects/Asteroids-Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

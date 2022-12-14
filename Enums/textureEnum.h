@@ -1,0 +1,14 @@
+//
+// Created by Jessie Mejia on 11/22/22.
+//
+
+#ifndef CLASSEXAMPLE1122_TEXTUREENUM_H
+#define CLASSEXAMPLE1122_TEXTUREENUM_H
+enum textureEnum{
+    ROCKET,
+    ASTEROIDS,
+    BULLET,
+    HEART,
+    LAST_TEXTURE
+};
+#endif //CLASSEXAMPLE1122_TEXTUREENUM_H
