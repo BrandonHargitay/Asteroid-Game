@@ -52,6 +52,7 @@ bool SpaceshipGun::update (sf::RenderWindow &window, std::vector<Asteroids>& ast
                 ammo.erase(it);
                 std::cout << "Score: " << score;
                 sound.play();
+
                 break;
             }
         }
