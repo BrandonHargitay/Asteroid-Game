@@ -55,16 +55,7 @@ void Asteroids::update(sf::RenderWindow &window) {
     for(Asteroids &a : asteroidBelt) {
         a.move({0, 0.1f});
         sf::FloatRect bounds = a.getGlobalBounds();
-        //std::cout << asteroidBelt.size() << " ";
         auto it = std::find(asteroidBelt.begin(), asteroidBelt.end(), a);
-//        for(Bullet b : bullets){
-//            if(a.getGlobalBounds().intersects(b.getGlobalBounds())){
-//                std::cout << "TOUCHED";
-//                asteroidBelt.erase(it);
-//                break;
-//            }
-//        }
-
         if (bounds.top >= windowSize.y) {
             if (*it == a) {
                 asteroidBelt.erase(it);
@@ -73,20 +64,7 @@ void Asteroids::update(sf::RenderWindow &window) {
         }
     }
 
-//
-//        //auto it2 = asteroidBelt.begin();
-//        //dasteroidBelt.erase(asteroidBelt.begin());
-//        a.move({0,0.1f});
-//        sf::FloatRect bounds = a.getGlobalBounds();
-//        std::cout << asteroidBelt.size() << " ";
-//        if(bounds.top  >= windowSize.y){
-//            for (auto it = asteroidBelt.begin(); it != asteroidBelt.end(); ++it) {
-//                if (*it == a) {
-//                    asteroidBelt.erase(it);
-//                    break;
-//                }
-//            }
-//        }
+
 
 }
 
