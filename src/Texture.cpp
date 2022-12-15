@@ -2,7 +2,7 @@
 // Created by Jessie Mejia on 11/22/22.
 //
 
-#include "Texture.h"
+#include "../include/Texture.h"
 std::map<textureEnum, sf::Texture> Texture::map;
 
 void Texture::load(textureEnum texture) {

@@ -5,7 +5,7 @@
 #ifndef CLASSEXAMPLE1122_STATES_H
 #define CLASSEXAMPLE1122_STATES_H
 
-#include "Enums/statesEnum.h"
+#include "../Enums/statesEnum.h"
 #include <map>
 
 class states{

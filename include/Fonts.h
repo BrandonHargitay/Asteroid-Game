@@ -5,7 +5,7 @@
 #ifndef CLASSEXAMPLE1122_FONTS_H
 #define CLASSEXAMPLE1122_FONTS_H
 
-#include "Enums/fontsEnum.h"
+#include "../Enums/fontsEnum.h"
 #include <SFML/Graphics.hpp>
 #include <map>
 class Fonts {

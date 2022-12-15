@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "Asteroids.h"
+#include "../include/Asteroids.h"
 
 Asteroids::Asteroids() {
     asteroid.setTexture(Texture::getTexture(ASTEROIDS));

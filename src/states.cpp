@@ -2,7 +2,7 @@
 // Created by Jessie Mejia on 11/22/22.
 //
 
-#include "states.h"
+#include "../include/states.h"
 
 bool states::checkState(statesEnum state) const {
     return map.at(state);

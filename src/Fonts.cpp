@@ -2,7 +2,7 @@
 // Created by Jessie Mejia on 11/22/22.
 //
 
-#include "Fonts.h"
+#include "../include/Fonts.h"
 std::map<fontsEnum, sf::Font> Fonts::map;
 
 void Fonts::load(fontsEnum font) {

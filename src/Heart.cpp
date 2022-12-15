@@ -2,7 +2,7 @@
 // Created by Brandon Hargitay on 12/12/22.
 //
 
-#include "Heart.h"
+#include "../include/Heart.h"
 
 void Heart::draw(sf::RenderTarget &target, sf::RenderStates states) const {
     if(!checkState(HIDDEN))

@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "SpaceshipGun.h"
+#include "../include/SpaceshipGun.h"
 #include <algorithm>
 
 SpaceshipGun::SpaceshipGun() {

@@ -1,10 +1,10 @@
 #include <SFML/Graphics.hpp>
-#include "Rocket.h"
-#include "Asteroids.h"
-#include "SpaceshipGun.h"
-#include "Fonts.h"
-#include "Health.h"
-#include "ScoreBoard.h"
+#include "include/Rocket.h"
+#include "include/Asteroids.h"
+#include "include/SpaceshipGun.h"
+#include "include/Fonts.h"
+#include "include/Health.h"
+#include "include/ScoreBoard.h"
 int main()
 {
     srand((unsigned int)time(NULL));

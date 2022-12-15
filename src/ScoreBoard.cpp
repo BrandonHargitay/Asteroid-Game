@@ -2,7 +2,7 @@
 // Created by Brandon Hargitay on 10/12/22.
 //
 
-#include "ScoreBoard.h"
+#include "../include/ScoreBoard.h"
 
 ScoreBoard::ScoreBoard(){
     scoreBoardPosition.x = 0;

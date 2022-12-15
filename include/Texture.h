@@ -6,7 +6,7 @@
 #define CLASSEXAMPLE1122_TEXTURE_H
 
 #include <map>
-#include "Enums/textureEnum.h"
+#include "../Enums/textureEnum.h"
 #include <SFML/Graphics.hpp>
 
 class Texture {

@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <cmath>
-#include "Bullet.h"
+#include "../include/Bullet.h"
 
 Bullet::Bullet(sf::Vector2f pos, float rot) {
     bullet.setTexture(Texture::getTexture(BULLET));
