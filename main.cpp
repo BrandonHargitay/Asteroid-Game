@@ -9,7 +9,9 @@ int main()
 {
     srand((unsigned int)time(NULL));
     sf::RenderWindow window(sf::VideoMode(1080, 1920), "SFML works!");
-
+    sf::Sprite background;
+    background.setTexture(Texture::getTexture(BACKGROUND));
+    background.setScale(23,23);
     Rocket Rocket;
     Asteroids Asteroid;
     SpaceshipGun Gun;
@@ -33,12 +35,13 @@ int main()
             Asteroid.createAsteroid();
             clock.restart();
         }
+
+        window.clear();
+        window.draw(background);
         Asteroid.update(window);
         score.updateScoreBoard(Gun.getScore());
         Rocket.move(window, event);
-//        Gun.update(window, Asteroid.getVector(), Rocket.getGlobalBounds());
         health.update(Gun.update(window, Asteroid.getVector(), Rocket.getGlobalBounds()));
-        window.clear();
         window.draw(Rocket);
         window.draw(Asteroid);
         window.draw(Gun);

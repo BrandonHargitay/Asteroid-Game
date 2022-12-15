@@ -52,11 +52,10 @@ bool SpaceshipGun::update (sf::RenderWindow &window, std::vector<Asteroids>& ast
                 ammo.erase(it);
                 std::cout << "Score: " << score;
                 sound.play();
-
                 break;
             }
         }
-        //checks if the bullet is out side the bounds of the window
+        //checks if the bullet is outside the bounds of the window
         if(bounds.left <= 0 || bounds.top <= 0 || bounds.left + bounds.width >= windowSize.x || bounds.top + bounds.height >= windowSize.y){
             if (*it == b) {
                 ammo.erase(it);

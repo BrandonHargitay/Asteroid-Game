@@ -13,7 +13,7 @@ public:
     Heart();
     virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const;
     void setPosition(float x, float y);
-    void setState2(statesEnum state, bool value);
+
     sf::FloatRect getGlobalBounds();
 
 private:

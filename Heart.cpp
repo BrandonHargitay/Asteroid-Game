@@ -7,8 +7,6 @@
 void Heart::draw(sf::RenderTarget &target, sf::RenderStates states) const {
     if(!checkState(HIDDEN))
         target.draw(heart);
-
-
 }
 
 Heart::Heart() {
@@ -21,9 +19,6 @@ void Heart::setPosition(float x, float y) {
 
 }
 
-void Heart::setState2(statesEnum state, bool value) {
-    setState(state, value);
-}
 
 sf::FloatRect Heart::getGlobalBounds() {
     return heart.getGlobalBounds();

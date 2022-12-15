@@ -4,12 +4,11 @@
 
 #include "Rocket.h"
 
-#include <iostream>
 
 
 Rocket::Rocket() {
-    rocket.setTexture(Texture::getTexture(ROCKET));
-    rocket.scale(0.2,0.2);
+    rocket.setTexture(Texture::getTexture(ROCKET2));
+    rocket.scale(3,3);
     sf::Vector2u size = rocket.getTexture()->getSize();
     rocket.setOrigin(size.x / 2, size.y / 2);
     rocket.setPosition(500,1000);
@@ -23,7 +22,6 @@ void Rocket::move(sf::RenderWindow &window, const sf::Event &event) {
     // get the current position and rotation of the sprite
     sf::Vector2f pos = rocket.getPosition();
     float angle = rocket.getRotation();
-    sf::Vector2<unsigned int> size2 = rocket.getTexture()->getSize();
 
     if(true){
         // check if the A or D keys are pressed and rotate the sprite accordingly
